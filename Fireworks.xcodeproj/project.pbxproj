@@ -1,0 +1,85 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		27A2BA2510A087A400346551 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		27A2BA2910A0C12800346551 /* soundmanager2-nodebug-jsmin.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "soundmanager2-nodebug-jsmin.js"; sourceTree = "<group>"; };
+		27A2BA2A10A0C12800346551 /* soundmanager2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = soundmanager2.js; sourceTree = "<group>"; };
+		27A2BA2B10A0C12800346551 /* soundmanager2.swf */ = {isa = PBXFileReference; lastKnownFileType = file; path = soundmanager2.swf; sourceTree = "<group>"; };
+		27A2BA2C10A0C12800346551 /* soundmanager2_flash9.swf */ = {isa = PBXFileReference; lastKnownFileType = file; path = soundmanager2_flash9.swf; sourceTree = "<group>"; };
+		27A2BA2D10A0C12800346551 /* soundmanager2_flash9_xdomain.swf */ = {isa = PBXFileReference; lastKnownFileType = file; path = soundmanager2_flash9_xdomain.swf; sourceTree = "<group>"; };
+		27A2BA2E10A0C12800346551 /* soundmanager2_flash9_xdomain.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = soundmanager2_flash9_xdomain.zip; sourceTree = "<group>"; };
+		27A2BA2F10A0C12800346551 /* Tritro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tritro.wav; sourceTree = "<group>"; };
+		27A2BA3010A0C12800346551 /* tro_bassPan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tro_bassPan.wav; sourceTree = "<group>"; };
+		27A2BA3210A1A21D00346551 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		27A2BA1510A0879200346551 = {
+			isa = PBXGroup;
+			children = (
+				27A2BA2910A0C12800346551 /* soundmanager2-nodebug-jsmin.js */,
+				27A2BA2A10A0C12800346551 /* soundmanager2.js */,
+				27A2BA2B10A0C12800346551 /* soundmanager2.swf */,
+				27A2BA2C10A0C12800346551 /* soundmanager2_flash9.swf */,
+				27A2BA2D10A0C12800346551 /* soundmanager2_flash9_xdomain.swf */,
+				27A2BA2E10A0C12800346551 /* soundmanager2_flash9_xdomain.zip */,
+				27A2BA2F10A0C12800346551 /* Tritro.wav */,
+				27A2BA3010A0C12800346551 /* tro_bassPan.wav */,
+				27A2BA2510A087A400346551 /* index.html */,
+				27A2BA3210A1A21D00346551 /* main.js */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		27A2BA1710A0879200346551 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 27A2BA1A10A0879200346551 /* Build configuration list for PBXProject "Fireworks" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 27A2BA1510A0879200346551;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		27A2BA1810A0879200346551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		27A2BA1910A0879200346551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27A2BA1A10A0879200346551 /* Build configuration list for PBXProject "Fireworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A2BA1810A0879200346551 /* Debug */,
+				27A2BA1910A0879200346551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27A2BA1710A0879200346551 /* Project object */;
+}

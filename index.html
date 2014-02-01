@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+        <title>Fireworks</title>
+        <script type="text/javascript" src="soundmanager2-nodebug-jsmin.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    
+    <body id="id_body" style="margin:0px; background:black; color:white;">
+        
+        <div style="padding: 2em; " id="id_text">
+            <textarea id="id_user_code" cols=80 rows=15 style="border:1px solid gray; color:#6F6; background-color:black; font-family:Monospace; font-size:12pt;">
+// How many fireworks to fire at beginning of display
+initial_fireworks = 1
+// How many particles to render at one time, decrease this if the display is slow.
+max_fireworks = 500
+// How often to update the display
+update_interval = 10
+// total length of the display in milliseconds
+total_time = 10000
+millis_between_launches = 2000
+
+// you can adjust these to suit your system/browser's performance
+
+new FireworksDisplay(
+    initial_fireworks,
+    max_fireworks,
+    update_interval,
+    total_time,
+    millis_between_launches
+);
+            </textarea>
+            <p>Hope you enjoy this, especially if you couldn't make it to a fireworks display!</p>
+            <p>Follow the <a href="http://www.saferfireworks.com/firework_code/index.htm">Firework Code</a></p>
+                
+            <p>Copyright © Mike Amy, November 2009.</p>                        
+
+            <p>
+                Thanks to the <a href="http://schillmania.com/projects/soundmanager2/">soundManager</a> developers.
+                
+                Samples courtesy user '<a href="http://www.freesound.org/usersViewSingle.php?id=2923">funhouse'</a> at <a href="www.freesound.org">www.freesound.org</a>:
+            </p>
+        </div>
+    </body>
+</html>
